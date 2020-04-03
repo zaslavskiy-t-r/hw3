@@ -1,0 +1,443 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.section-login-form{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 100%;*/
+    width: 100%;
+    height: 100vh;   /*- 100% высоты, vh- view height*/
+
+
+}
+
+.login-form{
+
+    padding-top: 30px;
+
+    width: 444px;
+    display: block;
+
+
+    height: 584px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.76);
+
+    margin: 0 auto;
+    border-radius: 4px;
+
+    margin-top: calc(100vh/10);
+    margin-bottom: 60px;
+    margin-bottom: calc(100vh/10);
+
+
+
+}
+
+.login-header{
+    color: white;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 19px;
+
+    vertical-align: center;
+}
+
+.journey{
+
+    color: white;
+    margin-left: 106px;
+
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.journey:hover{
+    color: #3CB878;
+}
+
+/*a {*/
+/*    color: white; !* Цвет обычной ссылки *!*/
+/*}*/
+/*a:visited {*/
+/*    color: white; !* Цвет посещенной ссылки *!*/
+/*}*/
+
+.link-white{
+    color: white;
+}
+
+.login-and-icon{
+    display: inline-block;
+    float: right;
+    margin-right: 106px;
+
+    vertical-align: center;
+    color: white;
+}
+
+.icon-header{
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+}
+
+.icon-header:after{
+    content: "";
+    width: 1px;
+    height: 19px;
+    right: -27px;
+    position: absolute;
+    border-right: rgba(255, 255, 255, 0.9) 1px solid;
+    /*width: 10px;*/
+    opacity: 0.5;
+}
+
+.welcome-header{
+    display: inline-block;
+
+    font-size: 14px;
+
+    vertical-align: bottom;
+
+    color: white;
+    line-height: 30px;
+}
+
+}
+
+.header-login-a{
+    color: #ffffff;
+}
+
+.color-white{
+    color: white;
+}
+
+.header-login-a:hover{
+    color: #3CB878;
+}
+
+.clearfix:after {
+    content: "."; /* добавить содержимое: "." */
+    display: block;  /* сделать блоком, т.к. inline не может иметь clear */
+    clear: both;  /* с обеих сторон clear */
+    visibility: hidden; /* сделать невидимым, зачем нам точка внизу? */
+    height: 0;  /* сделать высоту 0, чтобы не занимал место */
+}
+
+.links{
+    color: #3CB878;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.green-square{
+
+    width: 18px;
+    height: 18px;
+
+    background: #3CB878;
+
+    display: inline-block;
+}
+
+.sign-up{
+    font-size: 20px;
+    margin-left: 40px;
+    vertical-align: bottom;
+}
+
+.login{
+    float: right;
+    margin-right: 59px;
+    font-size: 14px;
+    color: #3CB878;
+
+}
+
+.button-facebook{
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+    width: 157px;
+    height: 48px;
+
+
+    background: #305DB8;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button-facebook:after{
+    content: "";
+    width: 1px;
+    height: 28px;
+    left: 46px;
+    top: 10px;
+    position: absolute;
+    border-right: #0A162F 1px solid;
+    /*width: 10px;*/
+    opacity: 0.1;
+}
+
+.fa-facebook-f{
+    position: absolute;
+    left: 18px;
+}
+
+
+.button-google:after{
+    content: "";
+    width: 1px;
+    height: 28px;
+    left: 48px;
+    top: 10px;
+    position: absolute;
+    border-right: #2B0D09 1px solid;
+    /*width: 10px;*/
+    opacity: 0.1;
+}
+
+.fa-google-plus-g{
+    position: absolute;
+    left: 13px;
+}
+
+.button-google{
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+    margin-left: 4px;
+    width: 157px;
+    height: 48px;
+
+    font-size: 16px;
+
+
+    background: #DF4A32;
+    color: white;
+    border-radius: 4px;
+}
+.fb-google{
+    height: 50px;
+    width: 326px;
+    clear: both;
+    display: block;
+    margin: 19px auto;
+}
+
+
+.or{
+
+    color: #848484;
+    position: relative;
+    text-align: center;
+}
+
+.or:before{
+    content: "";
+    width: 141px;
+    height: 1px;
+    left: 62px;
+    top: 10px;
+    position: absolute;
+    border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+.or:after{
+    content: "";
+    width: 141px;
+    height: 1px;
+    left: 241px;
+    top: 10px;
+    position: absolute;
+    border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+
+.fab{
+    color: white;
+    font-size: 20px;
+}
+
+
+input{
+    border: none;
+}
+
+
+.input{
+    padding-left: 18px;
+    display: block;
+    width: 303px;
+    height: 46px;
+    margin: 0 auto ;
+    margin-top: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: 1s ease;
+
+    outline:none;
+}
+
+
+.input::placeholder{
+    color: #BEBEBE;
+    /*padding-left: 18px;*/
+}
+
+.input:focus::placeholder{
+    color: black;
+    transition: color 1s ease;
+
+}
+
+
+.input:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    padding-left: 18px;
+}
+
+
+
+
+
+.checkbox-label{
+    /*display: block;*/
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer; /*- курсор в виде ладони с указательным пальцем*/
+    font-size: 14px;
+    user-select: none;
+}
+
+.checkmark{    /*- сам наш чекбокс не нажатый, span в html*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #F2F2F2;
+    /*background-color: #eee;*/
+}
+
+.checkbox {  /*- старый чекбокс, который мы скрываем из видимости*/
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox:checked + .checkmark{
+    background-color: #ffffff;
+}
+
+.checkmark:before{   /*- наша стрелочка*/
+    content: "";
+    position: absolute;
+    display: none;
+    width: 6px;
+    height: 14px;
+    left: 7px;
+    top: 1px;
+    border: solid #3CB878;
+    border-width: 0 2px 2px 0;
+    transform: rotate(35deg);
+}
+
+.checkbox:checked + .checkmark:before{
+    display: block;
+}
+
+.agree-our-div{
+    display: block;
+
+
+    margin: 0 auto;
+    margin-top: 18px;
+    /*text-align: center;*/
+
+    width: 322px;
+    height: 46px;
+}
+
+
+.create-account{
+    display: block;
+    width: 322px;
+    height: 46px;
+
+
+    background: #3CB878;
+    border-radius: 4px;
+
+    /*text-align: center;*/
+
+    margin: 0 auto;
+
+    border: none;
+}
+
+
+.sprite {
+    background-image: url('../img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.sprite-ic_caledar {
+    width: 19px;
+    height: 19px;
+    background-position: -5px -5px;
+
+}
+
+.sprite-ic_caledar1 {
+    width: 19px;
+    height: 19px;
+    background-position: -5px -34px;
+}
+
+
+.sprite-ic_caledar1:hover {
+    width: 19px;
+    height: 19px;
+    background-position: -5px -5px;
+}
+
+.sprite-ic_forum1:hover {
+    width: 28px;
+    height: 20px;
+    background-position: -5px -63px;
+}
+
+.sprite-ic_forum1 {
+    width: 28px;
+    height: 20px;
+    background-position: -5px -93px;
+}
+
+.sprite-ic_journey1:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -123px;
+}
+
+.sprite-ic_journey1 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -153px;
+}
